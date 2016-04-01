@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+  background: url(bdaybg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#header {
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+  text-shadow: 2px 2px #ff0000;
+  color: white;
+  padding: 5px;
+  margin: 10px;
+  background-color: hsla(200, 100%, 50%, 1);
+  transition: 1s ease;
+}
+
+.message {
+  color: white;
+  text-shadow: 2px 2px #ff0000;
+  background-color: hsla(200, 100%, 50%, 1);
+  margin: 10px;
+  padding: 5px;
+  margin-bottom: 25px;
+  transition: 1s ease;
+}
+
+#photo_box {
+  margin-top: 25px;
+}
+
+#photo {
+  border-radius: 50%;
+  border: 5px solid hsla(200, 50%, 50%, 1);
+  transition: 1s ease;
+}
+
+#header:hover {
+  background-color: hsla(0, 100%, 50%, 1);
+}
+
+.message:hover {
+  background-color: hsla(0, 100%, 50%, 1);
+}
+
+#photo:hover {
+  border: 5px solid hsla(0, 50%, 50%, 1);
+  border-radius: 25%;
+}
